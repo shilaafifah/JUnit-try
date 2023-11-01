@@ -37,6 +37,9 @@ android {
 
 dependencies {
 
+    testImplementation("junit:junit:4.13.2") // Untuk JUnit 4
+//    testImplementation("org.junit.jupiter:junit-jupiter-api:5.8.1") // Untuk JUnit 5
+
     implementation("androidx.core:core-ktx:1.9.0")
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("com.google.android.material:material:1.10.0")
